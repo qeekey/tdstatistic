@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMapConfig PUBLIC "-//iBATIS.com//DTD SQL Map Config 2.0//EN"
+    "http://www.ibatis.com/dtd/sql-map-config-2.dtd">
+<sqlMapConfig>
+
+	<settings useStatementNamespaces="true" /> 
+	
+	<!-- cacheModelsEnabled="false" -->
+	<sqlMap resource="sqlmap/ItemImpl.xml"></sqlMap>
+    <sqlMap resource="sqlmap/VisitImpl.xml"></sqlMap>
+    <sqlMap resource="sqlmap/ShopImpl.xml"></sqlMap>
+    <sqlMap resource="sqlmap/NotifyImpl.xml"></sqlMap>
+    
+    <sqlMap resource="sqlmap/TimePersonImpl.xml"></sqlMap>
+    <sqlMap resource="sqlmap/ItemHotImpl.xml"></sqlMap>
+    
+    
+
+    
+</sqlMapConfig>
